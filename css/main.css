@@ -1,0 +1,189 @@
+@font-face {
+    font-family: "edwardian";
+    src: url("Edwardian_Scr_ITC_TT.ttf");
+ }
+
+body{
+    margin: 0;
+    width: 1366px;
+    height: 1536px;
+    background-position: center;
+}
+
+header{
+    background-color: #ffc73b;
+    padding: 20px 0 0 0;
+}
+
+header .logo{
+    float: left;
+    width: 230px;
+    margin: -10px 0 0 100px;
+    padding: 0;
+}
+
+#nav_menu {
+    background-color: #281200;
+    padding: 0 0 6px 0;
+    font-family: 'Franklin Gothic heavy', 'Arial Narrow', Arial, sans-serif;
+    font-size: 300%;
+    border-top: 37.5px solid #ffc73b;
+}
+
+#nav_menu ul{
+    list-style-type: none;
+    overflow: hidden;
+    padding: 10px 0 6px 30px;
+}
+
+#nav_menu ul li{
+    float: left;
+    
+}
+
+#nav_menu ul li a{
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    color: #ffc73b;
+}
+
+#nav_menu ul li a:hover{
+    color: white;
+}
+
+#nav_menu ul li .current{
+    color: white;
+}
+
+/* make slider?*/
+#artisancoffee{
+    position: relative;
+    text-align: center;
+    color: white;
+    margin: 0;
+}
+
+#artisancoffee .button{
+    border: 2px solid white;
+    padding: 7.5px 16px;
+    text-align: center;
+    display: block;
+    font-size: 16px;
+    background-color: transparent;
+    text-decoration: none;
+    color: white;
+    font-family: 'Franklin Gothic heavy', 'Arial Narrow', Arial, sans-serif;
+    font-size: 220%;
+}
+
+#artisancoffee .button:hover{
+    border: 2px solid #b55200;
+    background-color: white;
+    color:#b55200;
+}
+
+#artisancoffee2{
+    position: relative;
+    text-align: center;
+    color: white;
+    margin: 0;
+}
+
+#artisancoffee2 .button{
+    border: 2px solid white;
+    padding: 15px 32px;
+    text-align: center;
+    display: block;
+    font-size: 16px;
+    background-color: transparent;
+    text-decoration: none;
+    color: white;
+    font-family: 'Franklin Gothic heavy', 'Arial Narrow', Arial, sans-serif;
+    font-size: 220%;
+}
+
+#artisancoffee2 .button:hover{
+    border: 2px solid #b55200;
+    background-color: white;
+    color:#b55200;
+}
+
+#grubhub{
+    position: relative;
+    text-align: center;
+    color: white;
+    margin: 0;
+    background-color: #281200;
+}
+
+#grubhub img{
+    width: 100%;
+}
+
+#grubhub h1{
+    position: absolute;
+    left: 10%;
+    top: 18%;
+    font-family: 'Franklin Gothic heavy', 'Arial Narrow', Arial, sans-serif;
+    font-size: 300%;
+}
+
+#grubhub p{
+    position: absolute;
+    left: 10%;
+    top: 38%;
+    font-family: "edwardian";
+    font-size: 225%;
+}
+
+#grubhub button{
+    position: absolute;
+    left: 15%;
+    top: 60%;
+    border: 2px solid white;
+    padding: 15px 32px;
+    text-align: center;
+    display: block;
+    font-size: 16px;
+    background-color: transparent;
+}
+#grubhub button:hover{
+    position: absolute;
+    border: 2px solid #b55200;
+    background-color: white;
+    color:#b55200;
+}
+#grubhub button a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Franklin Gothic heavy', 'Arial Narrow', Arial, sans-serif;
+    font-size: 220%;
+}
+#grubhub button a:hover{
+    color:#b55200;
+}
+
+#grubhub h2{
+    position: absolute;
+    left: 55%;
+    top: 2%;
+    font-family: 'Franklin Gothic heavy', 'Arial Narrow', Arial, sans-serif;
+    font-size: 190%;
+}
+
+#grubhub .clip{
+   position: absolute;
+   left: 50%;
+   top: 11%;
+   width: 45%;
+   height:auto;
+
+}
+footer{
+    background-color: #281200;
+    color: white;
+    text-align: center;
+    padding: .2em 0;
+}

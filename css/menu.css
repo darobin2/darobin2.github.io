@@ -1,0 +1,163 @@
+@font-face {
+    font-family: "edwardian";
+    src: url("Edwardian_Scr_ITC_TT.ttf");
+ }
+
+body{
+    margin: 0;
+}
+
+header {
+    background-color: #ffc73b;
+    padding: 20px 0 0 0;
+}
+
+header .logo{
+    float: left;
+    width: 230px;
+    margin: -10px 0 0 100px;
+    padding: 0;
+}
+
+#nav_menu {
+    background-color: #281200;
+    padding: 0 0 6px 0;
+    font-family: 'Franklin Gothic heavy', 'Arial Narrow', Arial, sans-serif;
+    font-size: 300%;
+    border-top: 37.5px solid #ffc73b;
+}
+
+#nav_menu ul{
+    list-style-type: none;
+    overflow: hidden;
+    padding: 10px 0 6px 30px;
+}
+
+#nav_menu ul li{
+    float: left;
+    
+}
+
+#nav_menu ul li a{
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    color: #ffc73b;
+}
+
+#nav_menu ul li a:hover{
+    color: white;
+}
+
+#nav_menu ul li .current{
+    color: white;
+}
+/* top sellers section */
+#topsellers{
+    background-image: url("../img/menu.jpg");
+    height: 100%;
+}    
+
+#topsellers h2{
+    font-family: 'Franklin Gothic Heavy', 'Arial Narrow', Arial, sans-serif;
+    font-size: 300%;
+    color: #ffc73b;
+    text-align: center;
+    margin: 0 5em 0 5em;
+    padding: 1.5em 0 0 0; 
+}
+
+#topsellers p{
+    text-align: center;
+    font-size: 200%;
+    font-family: "edwardian";
+    letter-spacing: 2px;
+    font-weight: bold;
+}
+main table{
+    margin: 5em 20em 0 20em;
+}
+main table th{
+    font-family: "edwardian";
+    font-size: 190%;
+    color: white;
+    background-color: #281200;
+    padding: 1%;
+}
+
+main section #design{
+    font-family: "edwardian";
+    font-size: 500%;
+    -ms-transform: rotate(20deg); /* IE 9 */
+    -webkit-transform: rotate(20deg); /* Safari 3-8 */
+    transform: rotate(20deg);
+    width: 10%;
+    height: 5.34%;
+    color: white;
+}
+
+#bold{
+    font-family: 'Franklin Gothic heavy', 'Arial Narrow', Arial, sans-serif;
+    font-size: 500%;
+    -ms-transform: rotate(20deg); /* IE 9 */
+    -webkit-transform: rotate(20deg); /* Safari 3-8 */
+    transform: rotate(20deg);
+    width: 10%;
+    height: 5.34%;
+    color:#ffc73b;
+}
+
+#artisan{
+    background-image: url("../img/background.jpg");
+    background-position: center;
+    background-color: #9e948c;
+    background-repeat: no-repeat;
+    width: 100%;
+    margin: 0;
+    height: 1536px
+}
+#artisan h2{
+    color: #b55200;
+    padding: 2em 0 0 0;
+    text-decoration-line: overline underline;
+}
+#artisan p{
+    margin:0 10em 0 10em;
+    
+}
+
+#artisan #pone{
+    text-align: left;
+    margin-top: 5em; 
+    color: white;
+    margin-bottom: 3em;
+   
+} 
+
+#artisan #pthree{
+    text-align: right;
+    margin-bottom: 3em;
+    margin-right: 10em;
+    color: white;
+
+}
+#artisan #pfour{
+    text-align: left;
+    margin-bottom: 3em;
+    color: white;
+
+}
+#hot{
+    color: red;
+}
+
+#cold{
+    color: blue;
+}
+footer{
+    background-color: #281200;
+    color: white;
+    text-align: center;
+    padding: .2em 0;
+}
