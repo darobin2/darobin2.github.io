@@ -60,13 +60,13 @@ html body header .logo{
     position: absolute;
     /* top: 35%; */
     color:#b55200;
-    margin: 3% 0 0 5%;
+    margin: 2% 0 0 5%;
     font-size: 270%;
 }
 
 #main_headerlayout h2{
     position: absolute;
-    margin: 3% 0 0 45%;
+    margin: 2% 0 0 45%;
     color:#281200;
     font-size: 130%;
 }
@@ -81,7 +81,7 @@ main img{
     height: 15em;
     border-radius: 17.5em;
     background-color: #281200;
-    margin: 5% 0 5% 5%;
+    margin: 5% 0 5% 15%;
     overflow: hidden;
     text-align: center;
     float: left;
@@ -94,12 +94,12 @@ main img{
     color: white;
 }
 .shaped p{
-    margin: 25% 0 0 25%;
+    margin: 35% 0 0 35%;
 }
 
 iframe{
     float: right;
-    margin: 2% 2% 2% 0;
+    margin: 3% 5% 2% 0;
 }
 
 footer{
