@@ -179,7 +179,7 @@ html body header .logo{
     font-size: 225%;
 }
 
-#grubhub button{
+#grubhub #button{
     position: absolute;
     left: 15%;
     top: 60%;
@@ -189,20 +189,19 @@ html body header .logo{
     display: block;
     font-size: 16px;
     background-color: transparent;
-}
-#grubhub button:hover{
-    position: absolute;
-    border: 2px solid #b55200;
-    background-color: white;
-    color:#b55200;
-}
-#grubhub button a{
     text-decoration: none;
     color: white;
     font-family: 'Franklin Gothic heavy', 'Arial Narrow', Arial, sans-serif;
     font-size: 220%;
 }
-#grubhub button a:hover{
+#grubhub #button:hover{
+    position: absolute;
+    border: 2px solid #b55200;
+    background-color: white;
+    color:#b55200;
+}
+
+#grubhub #button a:hover{
     color:#b55200;
 }
 
@@ -229,3 +228,35 @@ html body footer{
     padding: .2% 0;
     clear: both;
 }
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+  }
+  
+  .fa:hover {
+      opacity: 0.7;
+  }
+  
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+  
+  .fa-google {
+    background: #dd4b39;
+    color: white;
+  }
+  .fa-instagram {
+    background: #125688;
+    color: white;
+  }
+    
