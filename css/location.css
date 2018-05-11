@@ -80,7 +80,7 @@ html body header .logo{
     margin: 5% 0 5% 5%;
     overflow: hidden;
     float: left;
-    shape-inside: circle(20%);
+    shape-inside: circle(50%);
   }
   
 .shaped{
