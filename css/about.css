@@ -5,37 +5,36 @@
 
 body{
     margin: 0;
+    width: 100%;
 }
 
-header {
+header{
     background-color: #ffc73b;
-    padding: 20px 0 0 0;
+    padding: 2%;
 }
 
-header .logo{
+html body header .logo{
     float: left;
-    width: 230px;
-    margin: -10px 0 0 100px;
-    padding: 0;
+    width: 16%;
+    margin: -1.4% 0 0 5%;
 }
 
-#nav_menu {
+#nav_menu{
     background-color: #281200;
-    padding: 0 0 6px 0;
     font-family: 'Franklin Gothic heavy', 'Arial Narrow', Arial, sans-serif;
     font-size: 300%;
-    border-top: 37.5px solid #ffc73b;
+    padding-top: 1%;
+    padding-bottom: 1%;
 }
 
 #nav_menu ul{
     list-style-type: none;
     overflow: hidden;
-    padding: 10px 0 6px 30px;
+    margin-left: 2%;
 }
 
 #nav_menu ul li{
     float: left;
-    
 }
 
 #nav_menu ul li a{
@@ -54,22 +53,21 @@ header .logo{
     color: white;
 }
 
-h1, h2{
+#main_headerlayout h1, h2{
     font-family: 'Franklin Gothic Heavy', 'Arial Narrow', Arial, sans-serif
 }
 
-main h1{
+#main_headerlayout h1{
     position: absolute;
-    top: 35%;
+    /* top: 35%; */
     color:#b55200;
-    margin: 0 0 0 3em;
+    margin: -5% 0 0 5%;
     font-size: 270%;
 }
 
-main h2{
+#main_headerlayout h2{
     position: absolute;
-    top: 32%;
-    left:42%;
+    margin: -5% 0 0 45%;
     color:#281200;
     font-size: 130%;
 }
@@ -77,7 +75,7 @@ main h2{
 main p{
     font-family: "edwardian";
     color: #281200;
-    margin: 5em 6em 1em 4em; 
+    margin: 7% 6% 1% 4%; 
     font-size: 200%;
     font-weight: bold;
 }
@@ -88,42 +86,33 @@ main p{
     font-weight: none;
 }
 
+/* main image */
 main img{
     position: absolute;
     right:0;
     width: 40%;
-    margin: 1em 0 0 0;
+    margin: 1% 0 0 0;
 }
 
-footer {
-    background-color: #281200;
-    text-align: center;
-
-}
-
-footer p{
-    padding: .2em 0;
-    color: white;
-}
 .container{
-    width: 50em;
-    height: 50em;
-    border-radius: 25em;
-    background-color:transparent;
-    margin: 2em 0 0 0;
+    width: 45em;
+    height: 45em;
+    border-radius: 22.5em;
+    background-image:url("../img/coffeeupclose.png");
+    background-repeat: no-repeat;
+    margin: 7% -10% 0 0;
+    overflow: hidden;
     float: right;
-    shape-outside: 
-    /* url(../img/coffeeupclose);  */
-    circle(58%);
+    shape-outside: circle(45%);
   }
   
   .shaped{
     max-width: 100%;
   }
-
   footer{
     background-color: #281200;
     color: white;
     text-align: center;
-    padding: .2em 0;
+    padding: .2% 0;
+    clear: both;
 }

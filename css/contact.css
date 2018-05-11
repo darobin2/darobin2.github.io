@@ -7,35 +7,33 @@ body{
     margin: 0;
 }
 
-header {
+header{
     background-color: #ffc73b;
-    padding: 20px 0 0 0;
+    padding: 2%;
 }
 
-header .logo{
+html body header .logo{
     float: left;
-    width: 230px;
-    margin: -10px 0 0 100px;
-    padding: 0;
+    width: 16%;
+    margin: -1.4% 0 0 5%;
 }
 
-#nav_menu {
+#nav_menu{
     background-color: #281200;
-    padding: 0 0 6px 0;
     font-family: 'Franklin Gothic heavy', 'Arial Narrow', Arial, sans-serif;
     font-size: 300%;
-    border-top: 37.5px solid #ffc73b;
+    padding-top: 1%;
+    padding-bottom: 1%;
 }
 
 #nav_menu ul{
     list-style-type: none;
     overflow: hidden;
-    padding: 10px 0 6px 30px;
+    margin-left: 2%;
 }
 
 #nav_menu ul li{
     float: left;
-    
 }
 
 #nav_menu ul li a{
@@ -54,29 +52,80 @@ header .logo{
     color: white;
 }
 
-h1, h2{
+#main_headerlayout h1, h2{
     font-family: 'Franklin Gothic Heavy', 'Arial Narrow', Arial, sans-serif
 }
 
-main h1{
+#main_headerlayout h1{
     position: absolute;
-    top: 35%;
+    /* top: 35%; */
     color:#b55200;
-    margin: 0 0 0 3em;
+    margin: 2% 0 0 5%;
     font-size: 270%;
 }
+section{
+    margin: 6%;
+}
 
-main h2{
+#main_headerlayout h2{
     position: absolute;
-    top: 32%;
-    left:42%;
+    margin: 2% 0 0 55%;
     color:#281200;
     font-size: 130%;
 }
+
+form{
+    max-width: 450px;
+    margin: 0 auto 50;
+}
+
+input, textarea{
+    border: 2px solid #b55200;
+    width: 100%;
+    box-sizing:border-box;
+
+}
+
+.contact-info-group label{
+    width: 48%;
+    padding-right: 10px;
+    float: left;
+    box-sizing:border-box;
+}
+label{
+    display: block;
+    margin-bottom: 20px;
+}
+.contact-info-group label:nth-child(1){
+    padding-right: 5px
+}
+
+.contact-info-group label:nth-child(2){
+    padding-left: 5px;
+}
+span{
+    display: block;
+}
+
+.container{
+    width: 35em;
+    height: 35em;
+    border-radius: 17.5em;
+    background-image:url("../img/pinwheels.jpg");
+    background-repeat: no-repeat;
+    margin: -40% 2% 0 0;
+    overflow: hidden;
+    float: right;
+  }
+  
+.shaped{
+    max-width: 100%;
+  }
 
 footer{
     background-color: #281200;
     color: white;
     text-align: center;
-    padding: .2em 0;
+    padding: .2% 0;
+    clear: both;
 }

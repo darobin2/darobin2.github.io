@@ -7,35 +7,33 @@ body{
     margin: 0;
 }
 
-header {
+header{
     background-color: #ffc73b;
-    padding: 20px 0 0 0;
+    padding: 2%;
 }
 
-header .logo{
+html body header .logo{
     float: left;
-    width: 230px;
-    margin: -10px 0 0 100px;
-    padding: 0;
+    width: 16%;
+    margin: -1.4% 0 0 5%;
 }
 
-#nav_menu {
+#nav_menu{
     background-color: #281200;
-    padding: 0 0 6px 0;
     font-family: 'Franklin Gothic heavy', 'Arial Narrow', Arial, sans-serif;
     font-size: 300%;
-    border-top: 37.5px solid #ffc73b;
+    padding-top: 1%;
+    padding-bottom: 1%;
 }
 
 #nav_menu ul{
     list-style-type: none;
     overflow: hidden;
-    padding: 10px 0 6px 30px;
+    margin-left: 2%;
 }
 
 #nav_menu ul li{
     float: left;
-    
 }
 
 #nav_menu ul li a{
@@ -53,7 +51,9 @@ header .logo{
 #nav_menu ul li .current{
     color: white;
 }
+
 /* top sellers section */
+
 #topsellers{
     background-image: url("../img/menu.jpg");
     height: 100%;
@@ -64,8 +64,8 @@ header .logo{
     font-size: 300%;
     color: #ffc73b;
     text-align: center;
-    margin: 0 5em 0 5em;
-    padding: 1.5em 0 0 0; 
+    margin: 0 5% 0 5%;
+    padding: 1.5% 0 0 0; 
 }
 
 #topsellers p{
@@ -75,39 +75,83 @@ header .logo{
     letter-spacing: 2px;
     font-weight: bold;
 }
-main table{
-    margin: 5em 20em 0 20em;
+
+/* menu */
+#main_menu {
+    background-color: #f7c499;
+    margin: 0;
+    height: auto;
 }
-main table th{
+
+#main_menu h2{
+    font-family: 'Franklin Gothic Heavy', 'Arial Narrow', Arial, sans-serif;
+    font-size: 300%;
+    color: #281200;
+    text-align: center;
+    margin: 0 5% 1.5% 5%;
+    padding: 1.5% 0 0 0; 
+}
+#main_menu table{
+    margin: 0 15% 0 15%;
+}
+
+#main_menu table th{
     font-family: "edwardian";
-    font-size: 190%;
+    font-size: 290%;
+    letter-spacing: 5px;
     color: white;
     background-color: #281200;
     padding: 1%;
+    
+}
+#main_menu table tr td:nth-child(1){
+    background-color: white;
+    font-weight: bold;
+    text-align: center;
+    border:2px solid #281200;
+    padding: 2%;
+}
+#main_menu table tr:nth-child(6) td:nth-child(1) {
+    background-color: transparent;
+    border:none;
+    padding: 2%;
 }
 
-main section #design{
-    font-family: "edwardian";
-    font-size: 500%;
-    -ms-transform: rotate(20deg); /* IE 9 */
-    -webkit-transform: rotate(20deg); /* Safari 3-8 */
-    transform: rotate(20deg);
-    width: 10%;
-    height: 5.34%;
-    color: white;
+#main_menu table th:nth-child(1){
+    padding: 0 5%;
+    font-size: 190%;
 }
 
-#bold{
-    font-family: 'Franklin Gothic heavy', 'Arial Narrow', Arial, sans-serif;
-    font-size: 500%;
-    -ms-transform: rotate(20deg); /* IE 9 */
-    -webkit-transform: rotate(20deg); /* Safari 3-8 */
-    transform: rotate(20deg);
-    width: 10%;
-    height: 5.34%;
-    color:#ffc73b;
+#main_menu table tr:nth-child(5) td:nth-child(2){
+    background-color: transparent;
+    text-align: center;
+    border:none;
+    padding: 1%;
 }
 
+#main_menu table tr td:nth-child(2){
+    background-color: #b55200;
+    text-align: center;
+    border:2px solid #281200;
+    padding: 1%;
+}
+
+#main_menu table tr td:nth-child(3){
+    background-color: white;
+    font-weight: bold;
+    text-align: center;
+    border:2px solid #281200;
+    padding: 2%;
+}
+
+#main_menu table tr td:nth-child(6){
+    background-color: transparent;
+    text-align: center;
+    border:none;
+    padding: 1%;
+}
+
+/* artisan photo layout */
 #artisan{
     background-image: url("../img/background.jpg");
     background-position: center;
@@ -115,49 +159,60 @@ main section #design{
     background-repeat: no-repeat;
     width: 100%;
     margin: 0;
-    height: 1536px
+    height: 1536px;
 }
+
 #artisan h2{
-    color: #b55200;
-    padding: 2em 0 0 0;
-    text-decoration-line: overline underline;
-}
-#artisan p{
-    margin:0 10em 0 10em;
-    
+    font-family: 'Franklin Gothic Heavy', 'Arial Narrow', Arial, sans-serif;
+    font-size: 700%;
+    color: white;
+    text-align: center;
+    margin: 0 5% 1.5% 5%;
+    padding: 1.5% 0 0 0; 
 }
 
 #artisan #pone{
     text-align: left;
-    margin-top: 5em; 
-    color: white;
-    margin-bottom: 3em;
-   
+    color: white;  
 } 
 
 #artisan #pthree{
     text-align: right;
-    margin-bottom: 3em;
-    margin-right: 10em;
     color: white;
-
 }
+
 #artisan #pfour{
     text-align: left;
-    margin-bottom: 3em;
     color: white;
-
 }
-#hot{
+
+#artisan #hot{
     color: red;
 }
 
-#cold{
+#artisan #cold{
     color: blue;
 }
+#artisan #design{
+    font-family: "edwardian";
+    font-size: 500%;
+    width: 10%;
+    height: 5.34%;
+    color: white;
+}
+
+#artisan #bold{
+    font-family: 'Franklin Gothic heavy', 'Arial Narrow', Arial, sans-serif;
+    font-size: 500%;
+    width: 10%;
+    height: 5.34%;
+    color:#ffc73b;
+}
+
 footer{
     background-color: #281200;
     color: white;
     text-align: center;
-    padding: .2em 0;
+    padding: .2% 0;
+    clear: both;
 }

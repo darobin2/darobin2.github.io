@@ -4,16 +4,34 @@
     <meta charset="utf-8">
 	<meta name="description" content="Donut Delights is a local coffee and donut shop in downtown Urbana.">
 	<meta name="keywords" content="donut, coffee, cafe, urbana, pastry">
-	<link rel= "icon" href="img/favicon.ico">
+	<link rel= "icon" href="favicon.ico">
 	<title>DONUT delights</title>
     <link rel="stylesheet" href="css/location.css">
+    <!-- <link rel="stylesheet" href="css/slicknav.css" />
+    <script src="js/jquery.slicknav.min.js"></script>
+    <script>
+            $(function(){
+                $('#menu').slicknav();
+            });
+    </script> -->
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <!-- <script async src="https://www.googletagmanager.com/gtag/js?id=UA-119017329-1"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-119017329-1');
+    </script> -->
     </head>
 <body>
     <header>
         <a href="index.html">
         <img src="img/donutDelightsLogo.png" alt="DONUT delights Logo" class="logo">
         </a>
-        <nav id="nav_menu">
+        
+    </header>
+    <nav id="nav_menu">
             <ul>
                 <li><a href="index.html" >HOME</a></li>
                 <li><a href="menu.html">MENU</a></li>
@@ -22,15 +40,18 @@
                 <li><a href="location.html" class="current">LOCATION</a></li>
             </ul>
         </nav>
-    </header>
-    <main>
+        <main id="main_headerlayout">
         <h1>CENTER OF DOWNTOWN</h1>
-        <h2>2112 MAIN STREET <br>URBANA, IL 61801</h2>
+        <h2>2112 MAIN STREET <br>URBANA, IL 61801</h2> </main>
+        <img scr="img/bakeryFire.jpg" alt"The 1980s Fire On DONUT Delights" style="width: 200px; height: auto;">
+        <div class="container">
+        <div class="shaped">
         <p>FUN FACT: DD KEEP ITS ORIGINAL DESIGN EVEN AFTER THE 1980S FIRE.</p>
-        <iframe width="600" height="450" frameborder="0" style="border:0"
-src="https://www.google.com/maps/embed/v1/place?q=212%20Main%20Street%2C%20Urbana%2C%20IL%2061801%2C%20USA&key=..." allowfullscreen></iframe>
-    </main>
-    <footer>
+        </div>
+        </div>
+       
+        <iframe width="300" height="250" frameborder="0" style="border:0"src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJ8UWzHXXXDIgRFxDID6MbinA&key=AIzaSyC918cny_xr-k_agX4CepFdRN7NuGHoE9I" allowfullscreen></iframe> 
+        <footer>
         <p>&copy; 2018 DONUT DELIGHTS</p>
     </footer>
 </body>

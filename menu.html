@@ -7,13 +7,31 @@
 	<link rel= "icon" href="img/favicon.ico">
 	<title>DONUT delights</title>
     <link rel="stylesheet" href="css/menu.css">
+    <!-- <link rel="stylesheet" href="css/slicknav.css" />
+    <script src="js/jquery.slicknav.min.js"></script>
+    <script>
+            $(function(){
+                $('#menu').slicknav();
+            });
+    </script> -->
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-119017329-1"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-119017329-1');
+    </script>
    </head>
 <body>
     <header>
         <a href="index.html">
         <img src="img/donutDelightsLogo.png" alt="DONUT delights Logo" class="logo">
         </a>
-        <nav id="nav_menu">
+        
+    </header>
+    <nav id="nav_menu">
             <ul>
                 <li><a href="index.html" >HOME</a></li>
                 <li><a href="menu.html" class="current">MENU</a></li>
@@ -22,12 +40,13 @@
                 <li><a href="location.html">LOCATION</a></li>
             </ul>
         </nav>
-    </header>
-    <main>
+        <main>
        <div id="topsellers">
         <h2>TOP SELLERS</h2>
         <p>Pistachio Pinwheels<br> Boston Cream delights<br>Chocolate confetti<br>Marshmallow Mayhems<br>French twists<br>Bulls Horns</p>
         </div>
+        
+        <section id="main_menu">
         <h2 id="menu">MENU</h2>
         <table>
                 <tr>
@@ -55,15 +74,18 @@
                     <td></td>
                     <td>$2.00</td>
                 </tr>
+                <tr>
+                        <td></td>
+                </tr>
               </table>
-            <section id=artisan>
-                <h2>ARTISAN COSTA RICAN COFFEE</h2> 
+            </section>
+            <div id=artisan>
+                <h2>ARTISAN<br>COSTA RICAN<br>COFFEE</h2> 
                 <p id="pone"><span id="design">Choose  </span><span id="bold">IT<br></span><span id="hot">Hot</span> or <span id="cold">Cold</span><br>Americano, Cafe Mocha, Cafe Latte, Capuccino, Espessso</p>
                 <p id="pthree"><span id="design">Flavor  </span><span id="bold">IT</span><br>Vanilla, Hazelnut, Almond, Chocolate, Cara
                     .mel, Peppermint, Irish</p>
                 <p id="pfour"><span id="design">Milk  </span><span id="bold">IT</span><br>Almond Milk, Coconut Milk, Soy Milk, 2% Milk, Whole Milk, Rice Milk, Condensed Milk, Skimmed Milk, Hemp Milk </p>
-            </section>
-        
+                </div>
     </main>
     <footer>
         <p>&copy; 2018 DONUT DELIGHTS</p>

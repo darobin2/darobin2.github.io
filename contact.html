@@ -4,16 +4,34 @@
     <meta charset="utf-8">
 	<meta name="description" content="Donut Delights is a local coffee and donut shop in downtown Urbana.">
 	<meta name="keywords" content="donut, coffee, cafe, urbana, pastry">
-	<link rel= "icon" href="img/favicon.ico">
-	<title>DONUT delights</title>
+	<link rel= "icon" href="favicon.ico">
+    <title>DONUT delights</title>
+    <!-- <link rel="stylesheet" href="css/slicknav.css" />
+    <script src="js/jquery.slicknav.min.js"></script>
+    <script>
+            $(function(){
+                $('#menu').slicknav();
+            });
+    </script> -->
     <link rel="stylesheet" href="css/contact.css">
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-119017329-1"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-119017329-1');
+    </script>
     </head>
 <body>
     <header>
         <a href="index.html">
         <img src="img/donutDelightsLogo.png" alt="DONUT delights Logo" class="logo">
         </a>
-        <nav id="nav_menu">
+        
+    </header>
+    <nav id="nav_menu">
             <ul>
                 <li><a href="index.html" >HOME</a></li>
                 <li><a href="menu.html">MENU</a></li>
@@ -22,17 +40,35 @@
                 <li><a href="location.html">LOCATION</a></li>
             </ul>
         </nav>
-    </header>
-    <main>
+        <main id="main_headerlayout">
         <h1>CONTACT CUSTOMER SERVICE</h1>
         <h2>OR CLICK HERE<br>FOR F.A.Q.</h2>
-        <p>Donut Delights<br>
+        </main>
+        <section>
+            <p>Donut Delights<br>
             2112 Main Street<br>
             Urbana, Illinois 61801<br>
             (217)-555- 1234<br>
             contact@donutdelights.com</p>
         <p>Please fill out the form below with your questions or comments.</p>
-    </main>
+    
+    
+        <h3>Contact Us</h3>
+        <p>Please let us know if you have any concerns or questions for Donut DELIGHTS.</p>
+    <form action="https://formspree.io/drobinson81@stu.parkland.edu" method="POST">
+    <label><span>Your Name</span>
+    <input type="text" name="name"></label>
+    <label><span>Your Email</span>
+    <input type="email" name="_replyto"></label>
+    <label><span>Please Let Us Know About Your Experience, Questions, Or Comments You May Have.</span>
+    <textarea name="message"></textarea></label>
+    <input type="hidden" name="_next" value="https://site.io/thanks.html" />
+    <input type="submit" value="Send">
+    </form>
+    </section>
+    <div class="container"></div>
+    <div class="shaped"></div>
+    
     <footer>
         <p>&copy; 2018 DONUT DELIGHTS</p>
     </footer>

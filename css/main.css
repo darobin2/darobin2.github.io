@@ -5,40 +5,35 @@
 
 body{
     margin: 0;
-    width: 1366px;
-    height: 1536px;
-    background-position: center;
 }
 
 header{
     background-color: #ffc73b;
-    padding: 20px 0 0 0;
+    padding: 2%;
 }
 
-header .logo{
+html body header .logo{
     float: left;
-    width: 230px;
-    margin: -10px 0 0 100px;
-    padding: 0;
+    width: 16%;
+    margin: -1.4% 0 0 5%;
 }
 
-#nav_menu {
+#nav_menu{
     background-color: #281200;
-    padding: 0 0 6px 0;
     font-family: 'Franklin Gothic heavy', 'Arial Narrow', Arial, sans-serif;
     font-size: 300%;
-    border-top: 37.5px solid #ffc73b;
+    padding-top: 1%;
+    padding-bottom: 1%;
 }
 
 #nav_menu ul{
     list-style-type: none;
     overflow: hidden;
-    padding: 10px 0 6px 30px;
+    margin-left: 2%;
 }
 
 #nav_menu ul li{
     float: left;
-    
 }
 
 #nav_menu ul li a{
@@ -65,25 +60,48 @@ header .logo{
     margin: 0;
 }
 
-#artisancoffee .button{
+#artisancoffee h3 .button{
     border: 2px solid white;
-    padding: 7.5px 16px;
+    padding: 1% 2%;
     text-align: center;
+    float:right;
     display: block;
     font-size: 16px;
     background-color: transparent;
     text-decoration: none;
     color: white;
     font-family: 'Franklin Gothic heavy', 'Arial Narrow', Arial, sans-serif;
-    font-size: 220%;
+    font-size: 150%;
+    margin-right: -20%;
+    margin-top: -10%;
 }
 
-#artisancoffee .button:hover{
+#artisancoffee h3 .button:hover{
     border: 2px solid #b55200;
     background-color: white;
     color:#b55200;
 }
 
+#artisancoffee h2{
+    float:right;
+    font-size: 16px;
+    text-decoration: none;
+    color: white;
+    font-family: 'Franklin Gothic heavy', 'Arial Narrow', Arial, sans-serif;
+    font-size: 340%;
+    margin-top: -15%;
+    margin-right: -25%;
+}
+
+#artisancoffee h3{
+    float:right;
+    text-decoration: none;
+    color: white;
+    font-family: "edwardian";
+    font-size: 220%;
+    margin-right: -40%;
+}
+/* make slider2*/
 #artisancoffee2{
     position: relative;
     text-align: center;
@@ -91,23 +109,46 @@ header .logo{
     margin: 0;
 }
 
-#artisancoffee2 .button{
+#artisancoffee2 h3 .button{
     border: 2px solid white;
-    padding: 15px 32px;
+    padding: 1% 2%;
     text-align: center;
+    float:left;
     display: block;
     font-size: 16px;
     background-color: transparent;
     text-decoration: none;
     color: white;
     font-family: 'Franklin Gothic heavy', 'Arial Narrow', Arial, sans-serif;
-    font-size: 220%;
+    font-size: 150%;
+    margin-left: -4%;
+    margin-top: -10%;
 }
 
-#artisancoffee2 .button:hover{
+#artisancoffee2 h3 .button:hover{
     border: 2px solid #b55200;
     background-color: white;
     color:#b55200;
+}
+
+#artisancoffee2 h2{
+    float:left;
+    font-size: 16px;
+    text-decoration: none;
+    color: white;
+    font-family: 'Franklin Gothic heavy', 'Arial Narrow', Arial, sans-serif;
+    font-size: 340%;
+    margin-top: -25%;
+    margin-left: -28%;
+}
+
+#artisancoffee2 h3{
+    float: left;
+    text-decoration: none;
+    color: white;
+    font-family: "edwardian";
+    font-size: 220%;
+    margin-left: -60%;
 }
 
 #grubhub{
@@ -181,9 +222,10 @@ header .logo{
    height:auto;
 
 }
-footer{
+html body footer{
     background-color: #281200;
     color: white;
     text-align: center;
-    padding: .2em 0;
+    padding: .2% 0;
+    clear: both;
 }
