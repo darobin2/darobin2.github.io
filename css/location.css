@@ -60,17 +60,21 @@ html body header .logo{
     position: absolute;
     /* top: 35%; */
     color:#b55200;
-    margin: 5% 0 0 5%;
+    margin: 3% 0 0 5%;
     font-size: 270%;
 }
 
 #main_headerlayout h2{
     position: absolute;
-    margin: 5% 0 0 45%;
+    margin: 3% 0 0 45%;
     color:#281200;
     font-size: 130%;
 }
 
+main img{
+    float: left;
+    margin: 3%;
+}
 
 .container{
     width: 15em;
@@ -79,6 +83,7 @@ html body header .logo{
     background-color: #281200;
     margin: 5% 0 5% 5%;
     overflow: hidden;
+    text-align: center;
     float: left;
     shape-inside: circle(50%);
   }
